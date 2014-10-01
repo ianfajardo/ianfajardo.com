@@ -1,0 +1,128 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font:  {
+    family: $header-font-family;
+    weight: $header-font-weight;
+  }
+  line-height: $header-line-height;
+  color: inherit;
+}
+
+h1,
+h2,
+h3{
+  margin: 0px 0 10px;
+}
+
+h4,
+h5,
+h6{
+  margin: 0;
+}
+
+h1,
+.h1{
+  font-size: 64px;
+}
+
+h2,
+.h2{
+  font-size: 56px;
+}
+
+h3,
+.h3{
+  font-size: 48px;
+}
+
+h4,
+.h4{
+  font-size: 40px;
+}
+
+h5,
+.h5{
+  font-size: 32px;
+}
+
+h6,
+.h6{
+  font-size: 24px;
+}
+
+p{
+  margin: 0 0 20px; 
+}
+
+p.img{
+  margin: 0;
+}
+
+.small{
+  font-size: 14px;
+}
+
+blockquote,
+blockquote p{
+  font: 22px/26px; 
+  color:#777; 
+  font-style: italic;
+}
+blockquote{
+  margin: 0 0 20px; 
+  padding: 7px 15px 0 15px;
+  border-left: 1px solid #ddd;
+}
+blockquote cite{
+  display: block;
+  font-size: 17px;
+  color: #555;
+}
+blockquote cite:before { 
+  content: "\2014 \0020"; 
+}
+blockquote cite a, 
+blockquote cite a:visited { 
+  color: #555; 
+}
+
+.full-width{
+  width: 100%;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.text-red{
+  color: #D45559;
+}
+
+/* #Links
+=========================================== */
+
+a, a:visited{
+  color: #D45559;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: #cc363a;
+  text-decoration: none;
+}

@@ -1,0 +1,16 @@
+/* main.scss */
+
+
+//Normalize
+@import "partials/normalize";
+
+// Mixins
+@import "modules/all";
+@import "partials/base";
+
+//Partials
+@import "partials/typography";
+@import "partials/buttons";
+@import "partials/forms";
+@import "partials/grid";
+@import "custom";

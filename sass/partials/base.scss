@@ -1,0 +1,55 @@
+@import "compass";
+
+//Font Imports
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700);
+//Base Font
+$base-font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+$base-font-weight: 300;
+$base-font-size: 20px;
+$base-line-height: 22px;
+
+//Grid Variables
+$container-padding: 15px;
+$container-padding-right: $container-padding;
+$container-padding-left: $container-padding;
+
+$row-margin: -15px;
+$row-margin-left: $row-margin;
+$row-margin-right: $row-margin;
+
+//typography variables
+$header-font-family: "Source Sans Pro", Helvetica, sans-serif;
+$header-font-weight: 700;
+$header-line-height: 1.1;
+
+@mixin animate-mixin($delay, $duration){
+  -webkit-animation-duration: $duration;
+  -moz-animation-duration: $duration;
+  -ms-animation-duration: $duration;
+  animation-duration: $duration;
+  -webkit-animation-delay: $delay;
+  -moz-animation-delay: $delay;
+  -ms-animation-delay: $delay;
+  animation-delay: $delay;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background: #fafafa;
+  font:  {
+    family: $base-font-family;
+    size: $base-font-size;
+    weight: $base-font-weight;
+  }
+  line-height: $base-line-height;
+  color: #3e3e3e;
+}

@@ -1,0 +1,38 @@
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+a.button{
+  display: inline-block;
+  color:#F0F0F0;
+  margin: 5px 0;
+  background-color: #D45559;
+  border: 0 none;
+  font-weight: normal;
+  padding: 10px 20px;
+  font-size: 1em;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  @include border-radius(6px);
+  font: 1em "Open Sans" Helvetica, Arial, sans-serif;
+}
+
+input[type="submit"]{
+  width: 260px;
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+a.button:hover{
+  background-color: #cc363a;
+}
+
+a.button{
+  text-decoration: none;
+}
