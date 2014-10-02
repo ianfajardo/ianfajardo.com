@@ -294,17 +294,20 @@ video{
 .work{
   display:inline-block;
   margin: 0 auto;
+  font-size:0;
+  width:100%;
 }
 
 .mix{
   height:320px;
-  width:300px;
+  width:25%;
+  padding:10px;
   background-color:#000;
   display:inline-block;
 }
 
 .mix:after{
-  padding: 0 10px;
+  margin: 0 10px;
 }
 
 @media only screen and (max-width: 959px) {}
