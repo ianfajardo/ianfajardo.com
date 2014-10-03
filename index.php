@@ -66,11 +66,30 @@
         <div class="row">
           <div class="blk-12">
             <div class="work">
-              <div class="mix"></div>
-              <div class="mix"></div>
-              <div class="mix"></div>
-              <div class="mix"></div>
-              <div class="mix"></div>
+              <div class="mix">
+                <div class="mix-element frint-edu">
+                  <div class="overlay"></div>
+                  <div class="mix-text">FRINT EDU</div>
+                  <div class="mix-bottom">
+                    <a class="mix-button button">View Work</a>
+                  </div>
+                </div>
+              </div>
+              <div class="mix">
+                <div class="mix-element">
+                </div>
+              </div>
+              <div class="mix">
+                <div class="mix-element"></div>
+              </div>
+              <div class="mix">
+                <div class="mix-element"></div>
+              </div>
+              <div class="mix">
+                <div class="mix-element"></div>
+              </div>
+              <div class="gap"></div>
+              <div class="gap"></div>
             </div>
           </div>
         </div>

@@ -7,6 +7,7 @@ function scrollFade(elem){
     });
 }
 
+
 $(window).scroll(
     function () {
 

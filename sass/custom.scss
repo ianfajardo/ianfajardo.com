@@ -68,7 +68,7 @@ button,.button{
   height:100%;
   background-color: #181818;
   opacity: .6;
-  filter:alpha(opacity=80);
+  filter:alpha(opacity=60);
   z-index:2;
 }
 
@@ -96,7 +96,7 @@ video#bgvid{
   width:auto;  
   z-index:-1;
   background: url('../images/code_top.jpg') center center no-repeat;
-  background-size: cover;
+  @include background-size(cover);
 }
 
 video{
@@ -122,7 +122,7 @@ video{
 }
 
 #work{
-  background-color: #f0f0f0;
+  background-color: #ddd;
   padding: 40px 0;
   .row{
     padding-bottom: 20px;
@@ -291,29 +291,101 @@ video{
   padding-left: 5px;
 }
 
+#work-container .blk-12{
+  text-align: justify;
+}
+
 .work{
   display:inline-block;
-  margin: 0 auto;
   font-size:0;
   width:100%;
 }
 
-.mix{
-  height:320px;
-  width:25%;
+.mix, .gap{
+  width:290px;
   padding:10px;
-  background-color:#000;
+  //background-color:#000;
   display:inline-block;
+  //text-align: left;
+  //overflow:visible;
+}
+
+.frint-edu{
+    background: url('../images/work/frint_edu.png');
+    @include background-size(cover);
+  }
+
+.mix-element{
+  position: relative;
+  width:100%;
+  min-height:340px;
+  max-height:340px;
+  background-color: #181818;
+  background-repeat: no-repeat;
+  background-position: top center;
+  overflow:hidden;
+  text-align: center;
+  .img-tall{
+    max-width: 100%;
+    height: auto;
+  }
+  .img-wide{
+    width: auto;
+    max-height: 100%;
+  }
+  img{
+    display: inline-block;
+  }
+  .overlay{
+    opacity: .6;
+    filter:alpha(opacity=60);
+  }
+}
+
+.mix-bottom{
+  position: absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  background: #fff;
+  padding: 10px 0;
+  z-index: 4;
+}
+
+.mix-text{
+  position: relative;
+  font-size:30px;
+  font-weight:700;
+  color:#fff;
+  z-index: 4;
+}
+
+a.mix-button{
+  font-size: 16px;
+  opacity: .9;
+  filter:alpha(opacity=90);
+}
+a.mix-button:hover{
+  opacity:1;
+  filter:alpha(opacity=100);
 }
 
 .mix:after{
   margin: 0 10px;
 }
 
-@media only screen and (max-width: 959px) {}
+@media only screen and (max-width: 1200px) {
+  .mix,.gap{
+    //width:33%;
+  }
+}
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) {}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .mix,.gap{
+    //width:50%;
+  }
+}
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
@@ -364,14 +436,21 @@ video{
       display:none;
     }
   }
-
+  .mix,.gap{
+    width:50%;
+  }
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {}
+@media only screen and (max-width: 479px) {
+  .mix,.gap{
+    width:100%;
+  }
+}
 
 
 
