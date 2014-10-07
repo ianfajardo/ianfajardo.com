@@ -7,6 +7,14 @@ function scrollFade(elem){
     });
 }
 
+$(window).resize(function() {
+    if($(window).width() > 767){
+        $(".nav-scroll .nav-right").show();
+    }
+    else{
+        $(".nav-scroll .nav-right").hide();
+    }
+});
 
 $(window).scroll(
     function () {
@@ -35,6 +43,13 @@ $(window).scroll(
         
         scrollFade("#header-text");
         
+});
+
+$('.mix-element').hover(function() {
+    $(this).find('.mix-bottom').stop().slideDown(600);
+
+}, function() {
+    $(this).find('.mix-bottom').stop().slideUp(600);
 });
 
 $("#menu-icon").click(function(){

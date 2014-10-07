@@ -68,15 +68,23 @@
             <div class="work">
               <div class="mix">
                 <div class="mix-element frint-edu">
-                  <div class="overlay"></div>
-                  <div class="mix-text">FRINT EDU</div>
+                  
                   <div class="mix-bottom">
-                    <a class="mix-button button">View Work</a>
+                    <div class="mix-text">FRINT EDU</div>
+                    <div class="mix-category">Non-Profit</div>
+                    <a class="mix-button">View Work</a>
                   </div>
                 </div>
               </div>
               <div class="mix">
-                <div class="mix-element">
+                <div class="mix-element frint-edu">
+                  <div class="mix-top">
+                    <div class="mix-text">FRINT EDU</div>
+                    <div class="mix-category">Non-Profit</div>
+                  </div>
+                  <div class="mix-bottom">
+                    <a class="mix-button">View Work</a>
+                  </div>
                 </div>
               </div>
               <div class="mix">
