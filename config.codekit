@@ -11223,6 +11223,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/work\/matt_lani.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 549855,
+		"inputAbbreviatedPath": "\/images\/work\/matt_lani.jpg",
+		"outputAbbreviatedPath": "\/images\/work\/matt_lani.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/work\/mattandlani2014.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -11234,24 +11245,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/work\/mattlani_cover.jpg": {
+	"\/images\/work\/oyfa.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 549855,
-		"inputAbbreviatedPath": "\/images\/work\/mattlani_cover.jpg",
-		"outputAbbreviatedPath": "\/images\/work\/mattlani_cover.jpg",
+		"initialSize": 378807,
+		"inputAbbreviatedPath": "\/images\/work\/oyfa.jpg",
+		"outputAbbreviatedPath": "\/images\/work\/oyfa.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/work\/visualeuphoria_cover.png": {
+	"\/images\/work\/velvet_kitchen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 576214,
+		"inputAbbreviatedPath": "\/images\/work\/velvet_kitchen.jpg",
+		"outputAbbreviatedPath": "\/images\/work\/velvet_kitchen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/work\/visual_euphoria.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 3.61821e+06,
-		"inputAbbreviatedPath": "\/images\/work\/visualeuphoria_cover.png",
-		"outputAbbreviatedPath": "\/images\/work\/visualeuphoria_cover.png",
+		"inputAbbreviatedPath": "\/images\/work\/visual_euphoria.png",
+		"outputAbbreviatedPath": "\/images\/work\/visual_euphoria.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

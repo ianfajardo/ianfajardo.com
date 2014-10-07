@@ -900,7 +900,7 @@ video {
   position: absolute;
   top: 0;
   width: 100%;
-  z-index: 4;
+  z-index: 5;
   height: 120px;
   color: #f0f0f0; }
 
@@ -1058,14 +1058,6 @@ video {
   display: inline-block; }
 
 /* line 313, ../sass/custom.scss */
-.frint-edu {
-  background: url("../images/work/frint_edu.png");
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover; }
-
-/* line 318, ../sass/custom.scss */
 .mix-element {
   position: relative;
   width: 100%;
@@ -1076,18 +1068,18 @@ video {
   background-position: top center;
   overflow: hidden;
   text-align: center; }
-  /* line 328, ../sass/custom.scss */
+  /* line 323, ../sass/custom.scss */
   .mix-element .img-tall {
     max-width: 100%;
     height: auto; }
-  /* line 332, ../sass/custom.scss */
+  /* line 327, ../sass/custom.scss */
   .mix-element .img-wide {
     width: auto;
     max-height: 100%; }
-  /* line 336, ../sass/custom.scss */
+  /* line 331, ../sass/custom.scss */
   .mix-element img {
     display: inline-block; }
-  /* line 339, ../sass/custom.scss */
+  /* line 334, ../sass/custom.scss */
   .mix-element .overlay {
     display: none;
     opacity: .6;
@@ -1096,7 +1088,7 @@ video {
     left: 0;
     height: 100%; }
 
-/* line 348, ../sass/custom.scss */
+/* line 343, ../sass/custom.scss */
 .mix-bottom {
   display: none;
   position: absolute;
@@ -1107,7 +1099,7 @@ video {
   background: rgba(35, 35, 35, 0.8);
   z-index: 4; }
 
-/* line 359, ../sass/custom.scss */
+/* line 354, ../sass/custom.scss */
 .mix-top {
   display: none;
   position: absolute;
@@ -1117,7 +1109,7 @@ video {
   background: #181818;
   z-index: 4; }
 
-/* line 369, ../sass/custom.scss */
+/* line 364, ../sass/custom.scss */
 .mix-overlay {
   display: none;
   z-index: 4;
@@ -1126,8 +1118,8 @@ video {
   left: 0;
   width: 100%; }
 
-/* line 378, ../sass/custom.scss */
-.mix-text {
+/* line 373, ../sass/custom.scss */
+.mix-title {
   display: block;
   margin-top: 15px;
   font-size: 30px;
@@ -1135,23 +1127,35 @@ video {
   color: #fff;
   width: 100%; }
 
-/* line 387, ../sass/custom.scss */
+/* line 382, ../sass/custom.scss */
+.mix-text {
+  display: block;
+  font-size: 14px;
+  color: #f4f4f4;
+  padding: 0 20px;
+  text-align: left; }
+
+/* line 390, ../sass/custom.scss */
 .mix-category {
   display: block;
   font-size: 15px;
+  padding-bottom: 10px;
   margin-bottom: 15px;
-  color: #c0c0c0; }
+  color: #c0c0c0;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 1px solid #c0c0c0; }
 
-/* line 394, ../sass/custom.scss */
-.mix-text, .mix-category {
+/* line 401, ../sass/custom.scss */
+.mix-title, .mix-text, .mix-category {
   opacity: .7;
   filter: alpha(opacity=70); }
 
-/* line 399, ../sass/custom.scss */
+/* line 406, ../sass/custom.scss */
 a.mix-button {
   display: block;
   width: 120px;
-  margin: 60px auto 0 auto;
+  margin: 10px auto 0 auto;
   padding: 12px 0;
   font-size: 20px;
   opacity: .7;
@@ -1160,76 +1164,124 @@ a.mix-button {
   text-decoration: none;
   border: 1px solid #fff; }
 
-/* line 411, ../sass/custom.scss */
+/* line 418, ../sass/custom.scss */
 a.mix-button:hover {
   opacity: 1;
   filter: alpha(opacity=100); }
 
-/* line 416, ../sass/custom.scss */
+/* line 423, ../sass/custom.scss */
+.frint-edu {
+  background: url("../images/work/frint_edu.png");
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+/* line 428, ../sass/custom.scss */
+.velvet-kitchen {
+  background: url("../images/work/velvet_kitchen.jpg");
+  background-position: left top;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+/* line 434, ../sass/custom.scss */
+.visual-euphoria {
+  background: url("../images/work/visual_euphoria.png");
+  background-position: center top;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+/* line 440, ../sass/custom.scss */
+.matt-lani {
+  background: url("../images/work/matt_lani.jpg");
+  background-position: center top;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+/* line 446, ../sass/custom.scss */
+.oyfa {
+  background: url("../images/work/oyfa.jpg");
+  background-position: center top;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover; }
+  /* line 450, ../sass/custom.scss */
+  .oyfa .mix-title {
+    font-size: 26px;
+    line-height: 26px; }
+
+/* line 456, ../sass/custom.scss */
 .mix:after {
   margin: 0 10px; }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-  /* line 435, ../sass/custom.scss */
+  /* line 475, ../sass/custom.scss */
   #logo {
     display: none; }
 
-  /* line 438, ../sass/custom.scss */
+  /* line 478, ../sass/custom.scss */
   h1, h2, h3, h4, h5 {
     font-size: 1.5em; }
 
-  /* line 441, ../sass/custom.scss */
+  /* line 481, ../sass/custom.scss */
   .nav-top {
     height: 60px; }
-    /* line 443, ../sass/custom.scss */
+    /* line 483, ../sass/custom.scss */
     .nav-top .nav-right {
       display: none; }
-    /* line 446, ../sass/custom.scss */
+    /* line 486, ../sass/custom.scss */
     .nav-top .nav-left {
       float: none;
       margin: 0 auto;
       text-align: center; }
-      /* line 450, ../sass/custom.scss */
+      /* line 490, ../sass/custom.scss */
       .nav-top .nav-left h1#logo-name {
         font-size: 25px;
         line-height: 60px; }
 
-  /* line 456, ../sass/custom.scss */
+  /* line 496, ../sass/custom.scss */
   .nav-scroll .nav-right {
     float: none;
     clear: both;
     display: none;
     background: #f0f0f0; }
-    /* line 461, ../sass/custom.scss */
+    /* line 501, ../sass/custom.scss */
     .nav-scroll .nav-right ul {
       display: block; }
-      /* line 463, ../sass/custom.scss */
+      /* line 503, ../sass/custom.scss */
       .nav-scroll .nav-right ul li {
         display: block;
         width: 100%; }
-        /* line 466, ../sass/custom.scss */
+        /* line 506, ../sass/custom.scss */
         .nav-scroll .nav-right ul li a {
           width: 100%; }
 
-  /* line 473, ../sass/custom.scss */
+  /* line 513, ../sass/custom.scss */
   .nav-scroll #menu-icon {
     display: inline-block; }
 
-  /* line 476, ../sass/custom.scss */
+  /* line 516, ../sass/custom.scss */
   .start {
     padding: 60px 0; }
-    /* line 478, ../sass/custom.scss */
+    /* line 518, ../sass/custom.scss */
     .start video {
       display: none; }
 
-  /* line 482, ../sass/custom.scss */
+  /* line 522, ../sass/custom.scss */
   .mix, .gap {
     width: 50%; } }
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-  /* line 493, ../sass/custom.scss */
+  /* line 533, ../sass/custom.scss */
   .mix, .gap {
     width: 100%; } }

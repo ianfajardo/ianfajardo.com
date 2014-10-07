@@ -40,7 +40,7 @@
           <p>
             My interests lie in front-end development such as creating websites, branding, and user interfaces.  I am well versed in many front-end and back-end web languages and experience in all things awesome on the web.
           </p>
-          <a target="blank" href="resume 8-12-2014.pdf" class="button">Resume</a>
+          <a target="_blank" href="resume 8-12-2014.pdf" class="button">Resume</a>
           <a onclick="$('#contact').animatescroll({scrollSpeed:2000, padding:60});" class="button">Let's Get in Touch!</a>
         </div>
       </div>
@@ -68,33 +68,57 @@
             <div class="work">
               <div class="mix">
                 <div class="mix-element frint-edu">
-                  
+            
                   <div class="mix-bottom">
-                    <div class="mix-text">FRINT EDU</div>
-                    <div class="mix-category">Non-Profit</div>
-                    <a class="mix-button">View Work</a>
+                    <div class="mix-title">FRINT EDU</div>
+                    <div class="mix-category">Non-Profit Website</div>
+                    <div class="mix-text">Friends of Integral Education is an apolitical not for profit Charity created to facilitate the improvement of educational careers in rural communities in Cameroon. I am still currently working with this organization to get their website created. I am using Wordpress with custom theme.</div>
+                    <a class="mix-button" href="http://ianfajardo.com/FRINT_EDU" target="_blank">View Work</a>
                   </div>
                 </div>
               </div>
               <div class="mix">
-                <div class="mix-element frint-edu">
-                  <div class="mix-top">
-                    <div class="mix-text">FRINT EDU</div>
-                    <div class="mix-category">Non-Profit</div>
-                  </div>
+                <div class="mix-element velvet-kitchen">
                   <div class="mix-bottom">
-                    <a class="mix-button">View Work</a>
+                    <div class="mix-title">Velvet Kitchen</div>
+                    <div class="mix-category">Website Template</div>
+                    <div class="mix-text">A generic resutarant wordpress theme with a responsive side bar.</div>
+                    <a class="mix-button" href="http://ianfajardo.com/velvet_kitchen" target="_blank">View Work</a>
                   </div>
                 </div>
               </div>
               <div class="mix">
-                <div class="mix-element"></div>
+                <div class="mix-element visual-euphoria">
+                  <div class="mix-bottom">
+                    <div class="mix-title">Visual Euphoria</div>
+                    <div class="mix-category">Photography Website</div>
+                    <div class="mix-text">Features fixed attatchment sections on the frontpage stacked on each other. Each page was created with minimalism in mind. The images gallery uses the Isotope javascript plugin for filtering.I made use of the Pace javascript plugin showing a loading bar before the content was completely loaded.</div>
+                    <a class="mix-button" href="http://visualeuphoria.net" target="_blank">View Work</a>
+                  </div>
+                </div>
               </div>
               <div class="mix">
-                <div class="mix-element"></div>
+                <div class="mix-element matt-lani">
+                  <div class="mix-bottom">
+                    <div class="mix-title">Matt &amp; Lani 2014</div>
+                    <div class="mix-category">Wedding Website</div>
+                    <div class="mix-text">
+                      A simple one page password protected website for Matthew and Lani. It featured a fixed top nav bar and a paralax scrolling header image. Included is also a javascript image gallery showing a timeline with polaroid images. I customized Twitter Bootstrap framework for this website.
+                    </div>
+                    <a class="mix-button" href="http://mattandlani2014.com/home.php" target="_blank">View Work</a>
+                  </div>
+                </div>
               </div>
               <div class="mix">
-                <div class="mix-element"></div>
+                <div class="mix-element oyfa">
+                  <div class="mix-bottom">
+                    <div class="mix-title">Organization of Young Filipino Americans</div>
+                    <div class="mix-category">Organization Website</div>
+                    <div class="mix-text">
+                      Created the original website design for the Organization of Young Filipino Americans (OYFA) using Twitter Bootstrap from the ground up. I implemented a store using Paypal, a blog, and an alumni database using SQL and updated the website.</div>
+                    <a class="mix-button" href="http://oyfaatuva.com/" target="_blank">View Work</a>
+                  </div>
+                </div>
               </div>
               <div class="gap"></div>
               <div class="gap"></div>
@@ -122,7 +146,7 @@
             <div style="padding-left:10px;">
               <h4>Visual Euphoria</h4>
               <p>Personal photography services website featuring fixed attatchment sections on the frontpage that were stacked on top of each other making it seem as if they flowed into each other.  Each page was created with minialsim in mind.  The images gallery uses the Isotope javascript plugin for filtering.  Since most pages heavily rely on high quality images, I made use of the Pace javascript plugin showing a loading bar before the content was completely loaded. </p>
-              <a target="blank" href="http://visualeuphoria.net" class="button">View Site</a>
+              <a target="_blank" href="http://visualeuphoria.net" class="button">View Site</a>
             </div>
           </div>
         </div>
