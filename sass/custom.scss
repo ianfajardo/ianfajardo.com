@@ -453,6 +453,12 @@ a.mix-button:hover{
   }
 }
 
+.currently-app{
+  background: url('../images/work/currently_app.jpg');
+  background-position: center top;
+  @include background-size(cover);
+}
+
 .mix:after{
   margin: 0 10px;
 }

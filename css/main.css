@@ -1218,70 +1218,79 @@ a.mix-button:hover {
     line-height: 26px; }
 
 /* line 456, ../sass/custom.scss */
+.currently-app {
+  background: url("../images/work/currently_app.jpg");
+  background-position: center top;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+/* line 462, ../sass/custom.scss */
 .mix:after {
   margin: 0 10px; }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-  /* line 475, ../sass/custom.scss */
+  /* line 481, ../sass/custom.scss */
   #logo {
     display: none; }
 
-  /* line 478, ../sass/custom.scss */
+  /* line 484, ../sass/custom.scss */
   h1, h2, h3, h4, h5 {
     font-size: 1.5em; }
 
-  /* line 481, ../sass/custom.scss */
+  /* line 487, ../sass/custom.scss */
   .nav-top {
     height: 60px; }
-    /* line 483, ../sass/custom.scss */
+    /* line 489, ../sass/custom.scss */
     .nav-top .nav-right {
       display: none; }
-    /* line 486, ../sass/custom.scss */
+    /* line 492, ../sass/custom.scss */
     .nav-top .nav-left {
       float: none;
       margin: 0 auto;
       text-align: center; }
-      /* line 490, ../sass/custom.scss */
+      /* line 496, ../sass/custom.scss */
       .nav-top .nav-left h1#logo-name {
         font-size: 25px;
         line-height: 60px; }
 
-  /* line 496, ../sass/custom.scss */
+  /* line 502, ../sass/custom.scss */
   .nav-scroll .nav-right {
     float: none;
     clear: both;
     display: none;
     background: #f0f0f0; }
-    /* line 501, ../sass/custom.scss */
+    /* line 507, ../sass/custom.scss */
     .nav-scroll .nav-right ul {
       display: block; }
-      /* line 503, ../sass/custom.scss */
+      /* line 509, ../sass/custom.scss */
       .nav-scroll .nav-right ul li {
         display: block;
         width: 100%; }
-        /* line 506, ../sass/custom.scss */
+        /* line 512, ../sass/custom.scss */
         .nav-scroll .nav-right ul li a {
           width: 100%; }
 
-  /* line 513, ../sass/custom.scss */
+  /* line 519, ../sass/custom.scss */
   .nav-scroll #menu-icon {
     display: inline-block; }
 
-  /* line 516, ../sass/custom.scss */
+  /* line 522, ../sass/custom.scss */
   .start {
     padding: 60px 0; }
-    /* line 518, ../sass/custom.scss */
+    /* line 524, ../sass/custom.scss */
     .start video {
       display: none; }
 
-  /* line 522, ../sass/custom.scss */
+  /* line 528, ../sass/custom.scss */
   .mix, .gap {
     width: 50%; } }
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
-  /* line 533, ../sass/custom.scss */
+  /* line 539, ../sass/custom.scss */
   .mix, .gap {
     width: 100%; } }

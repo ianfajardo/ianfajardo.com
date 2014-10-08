@@ -38,7 +38,7 @@
           <h2>Hello, I'm Ian Fajardo.</h2>
           <p>I am a passionate Software Engineer &amp; Web Developer based in the DC/Northern VA area.  </p>
           <p>
-            My interests lie in front-end development such as creating websites, branding, and user interfaces.  I am well versed in many front-end and back-end web languages and experience in all things awesome on the web.
+            My interests lie in front-end development such as creating websites, branding, and user interfaces.  I am well versed in many front-end and back-end web languages and all things awesome on the web.
           </p>
           <a target="_blank" href="resume 8-12-2014.pdf" class="button">Resume</a>
           <a onclick="$('#contact').animatescroll({scrollSpeed:2000, padding:60});" class="button">Let's Get in Touch!</a>
@@ -67,8 +67,17 @@
           <div class="blk-12">
             <div class="work">
               <div class="mix">
+                <div class="mix-element currently-app">
+                  <div class="mix-bottom">
+                    <div class="mix-title">Currently App</div>
+                    <div class="mix-category">iOS/Mobile</div>
+                    <div class="mix-text">Weather application for iOS that gets data from forecast.io.  The app shows a 7-day forecast including the current day.  This was built using Apple's new language Swift.</div>
+                    <a class="mix-button" href="https://github.com/ianfajardo/swift_weather_app" target="_blank">Github</a>
+                  </div>
+                </div>
+              </div>
+              <div class="mix">
                 <div class="mix-element frint-edu">
-            
                   <div class="mix-bottom">
                     <div class="mix-title">FRINT EDU</div>
                     <div class="mix-category">Non-Profit Website</div>
