@@ -41,16 +41,17 @@ elseif(!empty($email) && !empty($message) && isset($message) && isset($email)){
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link href="bower_components/animate.css/animate.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    
     <!--[if lt IE 9]>
       <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+      <script src="bower_components/respondjs/dest/respond.min.js"></script>
       <script>
         document.createElement('video');
       </script>
     <![endif]-->
 
-    <link href="bower_components/animate.css/animate.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
